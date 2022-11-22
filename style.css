@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.button {
+    width: 90px;
+    height: 70px;
+    font-size: 20px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #607d8b;
+    border: none;
+    color: white;
+}
+
+.textview {
+    width: 342px;
+    margin: 4px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    color: red;
+
+
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+.bg {
+    background: linear-gradient(to right, rgb(200, 42, 42), rgb(64, 64, 227));
+    height: 100vh;
+}
+
+h2 {
+    color: rgb(226, 152, 66);
+    font-family: cursive;
+    font-size: 50px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+  
+    
+}
